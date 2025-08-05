@@ -4,12 +4,12 @@ import Link from 'next/link';
 
 export default function AppBar() {
   return (
-    <header className="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700">
+    <header className="bg-surface border-b border-outline-variant">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <h1 className="text-xl font-semibold text-gray-900 dark:text-white">
+              <h1 className="text-xl font-semibold text-on-surface">
                 Timer App
               </h1>
             </Link>
@@ -17,8 +17,14 @@ export default function AppBar() {
           
           <div className="flex items-center space-x-4">
             <Link
+              href="/style-guide"
+              className="text-sm font-medium text-on-surface-variant hover:text-on-surface transition-colors"
+            >
+              Style Guide
+            </Link>
+            <Link
               href="/create-timer"
-              className="inline-flex items-center justify-center w-8 h-8 bg-blue-600 hover:bg-blue-700 text-white rounded-full transition-colors duration-200"
+              className="inline-flex items-center justify-center w-8 h-8 bg-primary-40 hover:bg-primary-30 text-on-primary rounded-full transition-colors duration-200"
               title="Create New Timer"
             >
               <svg
