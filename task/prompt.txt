@@ -1,0 +1,18 @@
+analyze the provide image and genarate the typograpy for the project
+
+context - task\Frame 26086143.png
+
+google font  link - 
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+Using tailwind css
